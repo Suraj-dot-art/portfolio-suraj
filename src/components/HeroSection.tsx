@@ -23,7 +23,7 @@ const HeroSection = () => {
     // This would trigger resume download
     console.log('Download resume');
     const link = document.createElement('a');
-    link.href = '/Suraj_Divekar.pdf'; // ✅ Correct path if file is directly in public folder
+    link.href = '/Suraj_Resume.pdf'; // ✅ Correct path if file is directly in public folder
     link.download = 'Suraj_Divekar_Resume.pdf'; // ✅ Desired download file name
 
     document.body.appendChild(link);
